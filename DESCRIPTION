@@ -1,5 +1,5 @@
 Package: convertempr
-Title: What the Package Does (One Line, Title Case)
+Title: Easily convert between temperatures! Celsius, Kelvin & Fahrenheit!
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Tiffany",
@@ -7,8 +7,11 @@ Authors@R:
            role = c("aut", "cre"),
            email = "tiffany.timbers@gmail.com",
            comment = c(ORCID = "0000-0002-2667-376X"))
-Description: What the package does (one paragraph).
+Description: Contains functions for all permutations of conversions between Celsius, Kelvin and Fahrenheit.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0)
