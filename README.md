@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-Easily convert between temperatures\! Celsius, Kelvin & Fahrenheit\!
+Easily convert between temperatures\! Celsius, Kelvin and Fahrenheit\!
 Contains functions for all permutations of conversions between Celsius,
 Kelvin and Fahrenheit.
 
