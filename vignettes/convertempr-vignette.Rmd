@@ -1,0 +1,37 @@
+---
+title: "convertempr-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{convertempr-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package was created to facilitate the conversion between temperatures scales. In particular, all permutations of conversions between Celsius, Kelvin & Fahrenheit have been implemented. 
+
+To get started, we load the library:
+
+```{r setup}
+library(convertempr)
+```
+
+Next, we'll create some Fahrenheit temperature data (that later we will convert to Celsius):
+
+```{r create data}
+temps <- c(69.2, 71.1, 69.0, 70.4, 70.9)
+```
+
+Let's now convert the Fahrenheit temperature data to Celsius:
+
+```{r convert to celsius}
+fahr_to_celsius(temps)
+```
+
+That's it folks! You use all the functions in this package the same way, choosing the function based on the temperature conversion you are wanting to make!
