@@ -12,7 +12,7 @@ status](https://github.com/ttimbers/convertempr/workflows/R-CMD-check/badge.svg)
 
 Easily convert between temperatures\! Celsius, Kelvin & Fahrenheit\!
 Contains functions for all permutations of conversions between Celsius,
-Kelvin and Fahrenheit.
+Kelvin and Fahrenheit. This package is an example for the UBC MDS DSCI 524 (Collaborative Software Development) course.
 
 ## Installation
 
